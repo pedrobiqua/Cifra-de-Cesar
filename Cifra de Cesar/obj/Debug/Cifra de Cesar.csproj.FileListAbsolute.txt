@@ -1,0 +1,7 @@
+C:\Users\pedro\source\repos\Cifra de Cesar\Cifra de Cesar\bin\Debug\Cifra de Cesar.exe.config
+C:\Users\pedro\source\repos\Cifra de Cesar\Cifra de Cesar\bin\Debug\Cifra de Cesar.exe
+C:\Users\pedro\source\repos\Cifra de Cesar\Cifra de Cesar\bin\Debug\Cifra de Cesar.pdb
+C:\Users\pedro\source\repos\Cifra de Cesar\Cifra de Cesar\obj\Debug\Cifra de Cesar.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\Cifra de Cesar\Cifra de Cesar\obj\Debug\Cifra de Cesar.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\Cifra de Cesar\Cifra de Cesar\obj\Debug\Cifra de Cesar.exe
+C:\Users\pedro\source\repos\Cifra de Cesar\Cifra de Cesar\obj\Debug\Cifra de Cesar.pdb
