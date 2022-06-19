@@ -10,10 +10,11 @@ namespace Cifra_de_Cesar
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("TDE Matemática discreta");
+            Console.WriteLine("------------- TDE Matemática discreta -------------");
 
             Console.WriteLine("Frase a ser Convertida:");
             var texto = Console.ReadLine();
+            texto = Cifra.RemoveDiacritics(texto);
 
             Console.WriteLine("Chave:");
             var chave = Console.ReadLine();
@@ -25,7 +26,7 @@ namespace Cifra_de_Cesar
                 Console.WriteLine("Não foi possivel usar essa chave");
             }
 
-            Console.WriteLine(Cifra.Criptografar(texto, novaChave));
+            Console.WriteLine(Cifra.Cifrar(texto, novaChave));
 
             Console.WriteLine("Criptografia:");
             var textoDes = Console.ReadLine();
@@ -35,7 +36,11 @@ namespace Cifra_de_Cesar
 
             int novaChavedes = Cifra.EncontrarChave(chaveDes);
 
-            Console.WriteLine(Cifra.DesCriptografar(textoDes, novaChavedes));
+            if (novaChave == -1)
+            {
+                Console.WriteLine("Não foi possivel usar essa chave");
+            }
+            Console.WriteLine(Cifra.Decifrar(textoDes, novaChavedes));
 
             Console.ReadLine();
         }
